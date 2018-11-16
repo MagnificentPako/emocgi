@@ -24,10 +24,10 @@
             🌳🐇💻e❗ ➡ o 
             🔤🔤➡️🖍🆕 str 
             ↪ o ➡ eu 🍇 
-                🍪🔤<span><b>🔤 e 🔤</b> = 🔤 eu 🔤</span>🔤🍪 ➡️ 🖍str 
+                🍪🔤<tr><td>🔤 e 🔤</td><td>🔤 eu 🔤</td></tr>🔤🍪 ➡️ 🖍str 
             🍉 
             🙅‍ 🍇 
-                🍪🔤<span><b>🔤 e 🔤</b> = Empty</span>🔤🍪 ➡️ 🖍str 
+                🍪🔤<tr><td>🔤 e 🔤</td><td>Empty</td></tr>🔤🍪 ➡️ 🖍str 
             🍉 
             ↩️ str 
         🍉❗ 🔤❌n🔤 ❗ ➡️ env_block
@@ -35,18 +35,30 @@
         😀🍪🔤Content-type: text/html❌r❌n❌r❌n
         <html>
             <head>
+                <meta charset="UTF-8">
                 <title>Emojicode CGI</title>
                 <style>
                     html, body { width: 100%; text-align: center; }
                     span { display: block; text-align: left; }
                     .container { width: 50%; display: inline-block; }
                 </style>
+                <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.0/dist/paper.min.css">
+                <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
             </head>
             <body>
-                <div class="container">
-                <h1>Sample CGI server</h1>
+                <div class="container child-borders child-shadows">
+                <h1>Sample CGI server <i class="ec ec-upside-down-face"></i></h1>
                 <h3>Env vars</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
                 🔤 env_block 🔤
+                    </tbody>
                 </div>
             </body>
         </html>

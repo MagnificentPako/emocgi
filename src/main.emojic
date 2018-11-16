@@ -1,0 +1,45 @@
+📦 fcgi 🏠️️️
+
+🏁🍇
+    🆕🏃🔷❗️ ➡️ server
+    
+    🍨  
+        💭🔤HTTP_HOST🔤
+        💭🔤HTTP_REFERER🔤
+        💭🔤PATH🔤
+        💭🔤QUERY_STRING🔤
+        💭🔤REMOTE_ADDR🔤
+        💭🔤REMOTE_HOST🔤
+        💭🔤REQUEST_METHOD🔤
+        💭🔤SERVER_SOFTWARE🔤
+        🔤REQUEST_URI🔤
+    🍆 ➡️ env_vars
+
+    👂server 🍇
+
+        🆕🔡🍨🐰env_vars 🍇 e 🔡 ➡ 🔡
+            🌳🐇💻e❗ ➡ o
+            ↪ o ➡ eu 🍇
+                ↩️ 🍪🔤<span>🔤 e 🔤 = 🔤 eu 🔤</span>🔤🍪
+            🍉
+            ↩️ 🍪🔤<span>🔤 e 🔤 = Empty</span>🔤🍪
+        🍉❗ 🔤❌n🔤 ❗ ➡️ env_block
+
+        😀🍪🔤Content-type: text/html❌r❌n❌r❌n
+        <html>
+            <head>
+                <title>Emojicode CGI</title>
+                <style>
+                    span { display: block; }
+                </style>
+            </head>
+            <body>
+                <h1>Sample CGI server</h1>
+                <h3>Env vars</h3>
+                🔤 env_block 🔤
+            </body>
+        </html>
+        
+        ❌n🔤🍪❗️
+    🍉❗
+🍉

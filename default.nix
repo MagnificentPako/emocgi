@@ -9,7 +9,7 @@ stdenv.mkDerivation {
                 ];
 
   buildPhase = ''
-    emojicodec main.emojic -S $EMOJICODE_PATH
+    emojicodec main.emojic -O -S $EMOJICODE_PATH
   '';
 
   installPhase = ''
